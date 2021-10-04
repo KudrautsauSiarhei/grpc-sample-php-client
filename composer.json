@@ -1,0 +1,20 @@
+{
+    "name": "siarhei/phpgrpcclient",
+    "autoload": {
+        "psr-4": {
+            "Siarhei\\Phpgrpcclient\\": "src/",
+            "": "lib/Grpc/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Siarhei Kudrautsau",
+            "email": "s.kudrautsau@godeltec.com"
+        }
+    ],
+    "require": {
+        "google/protobuf": "^3.17",
+        "grpc/grpc": "^1.39",
+        "ext-grpc": "*"
+    }
+}
